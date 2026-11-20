@@ -29,4 +29,4 @@ def generate_report(directory: str = None) -> str:
     return server.generate_report()
 
 if __name__ == "__main__":
-    mcp.run(transport='streamable-http', host='100.111.202.65', port=80)
+    mcp.run(transport='streamable-http', host='localhost', port=80)
